@@ -25,7 +25,6 @@ I implemented a "Champion-Challenger" workflow to find the best-performing archi
 
 | Model | Accuracy | Class 1 Precision | Class 1 Recall | F1-Score |
 | :--- | :--- | :--- | :--- | :--- |
-| **Naive Baseline** | 79.4% | 0.00 | 0.00 | 0.00 |
 | **XGBoost (Default)** | 73% | 0.41 | 0.71 | 0.52 |
 | **XGBoost (Threshold=0.7)** | **82%** | **0.60** | **0.37** | **0.45** |
 
